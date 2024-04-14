@@ -1,0 +1,45 @@
+/* .dashboard {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+box-sizing: border-box;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+} */
+.dashboard{
+  background-color: lightslategrey;
+}
+
+.dashboard h1 {
+background-color: lightslategrey;
+color: #111;
+padding: 10px;
+text-align: center;
+}
+.content {
+color: #111;
+padding: 10px;
+text-align: center;
+}
+
+.content-container{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyle {
+    background-color: rgb(255, 74, 74);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .linkStyle {
+    color: white;
+    text-decoration: none;
+  }
